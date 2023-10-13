@@ -10,31 +10,24 @@
 </head>
 <body>
     <header>
-        <div class="iconos">
-            <div class="logo">
-                <img src= "imag/Logo simple.jpg" alt="logo de la empresa">
+         <nav class="navbar navbar-expand-sm">
+            <div class="conteiner fluid">
+                <a class="navbar-brand logo" href= "#">
+                    <img src ="imag/Logo simple.jpg" alt="logo de la empresa">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link active"  href="#">Inicio   </a></li>
+                        <li class="nav-item emp"><a class="nav-link" href="./pages/alquileres.html">Alquileres     </a></li>
+                        <li class="nav-item "><a class="nav-link" href="./pages/ventas.html">Ventas</a></li>
+                        <li class="nav-item emp"><a class="nav-link" href="./pages/emprendimientos.html">Emprendiemientos</a></li>
+                        <li class="nav-item "><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                    </ul>    
                 </div>
-            <div class="redes">
-                <img src="imag/facebook.png" alt="logo facebook">
-                <h3 class logo>albornozpropiedades</h3>
-            </div>
-            <div class="redes">
-                <img src="imag/instagram.png" alt="logo instagram"> 
-                <h3 class logo>@albornozpropiedades</h3>
-            </div>
-            <div class="redes">
-                <img src="imag/whatsapp .png" alt="logo whatsapp">
-                <h3 class logo>11 32323457</h3>
-            </div>
-        </div>
-         <nav>
-            <ul>
-                <li><a href="#">Inicio   </a></li>
-                <li><a href="./pages/alquileres.html">Alquileres     </a></li>
-                <li><a href="./pages/ventas.html">Ventas</a></li>
-                <li class="emp"><a href="./pages/emprendimientos.html">Emprendiemientos</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+            </div>    
         </nav>
     </header>
     <main>
@@ -85,15 +78,22 @@
                 <input type="submit" value="Enviar"> 
             </div>    
         </form>
-        <div class="container">  
-            <img src="./imag/casa1.jfif" alt="Casa llavallol calle cuyo" class="uno">
-            <img src="./imag/casa2.jfif" alt="casa lomas de zamora calle azara" class="dos"> 
-            <img src="./imag/casa3.jfif" alt="casa luis guillon" class="tres">
-            <img src="./imag/galpon1.jfif" alt="galpon en llavallol" class="cuatro">
-            <img src="./imag/depto1.jfif" alt="departamento en monte grande" class="cinco">
-            <img src="./imag/dpto3.jfif" alt="departamento en lomas de zamora" class="seis">
-            <img src="./imag/galpon2.jfif" alt="Galpon en luis guillon" class="siete">
-         </div>   
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner inicio1">
+                <div class="carousel-item active inicio2">
+                    <img src="./imag/campo.jfif" class="d-block w-100" alt="campo sobre la Ruta 29">
+                    <h3>Campo sobre la ruta Nacional 29</h3>
+                </div>
+                <div class="carousel-item inicio2">
+                    <img src="./imag/country2.jpg" class="d-block w-100" alt="Country en canning">
+                    <h3>Loteo en Canning Country La Alameda</h3>
+                </div>
+                <div class="carousel-item inicio2">
+                    <img src="./imag/edificio.jpg" class="d-block w-100" alt="Oficinas en lomas de zamora">
+                    <h3>Oficinas en lomas de zamora</h3>
+                </div>
+            </div>
+        </div>
     </main> 
 <footer>  
     <hr>
@@ -116,7 +116,7 @@
     </div> 
     <div class="pie">
         <p class="datos">Albornoz Propiedades</p>
-        <p class="datos">         Matricula 4038</p>
+        <p class="datos"> Matricula 4038</p>
     </div>
 <hr>
 </footer>

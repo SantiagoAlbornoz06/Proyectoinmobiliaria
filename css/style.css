@@ -1,38 +1,34 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html {
     font-size: 62,5%;
 }
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    margin: 20px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
     background-color: rgb(77, 71, 116);
-    margin: 20px
 }
 body{
     background-color: rgb(169, 171, 177);
 }
-a{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 200px;
-    text-decoration: none;
-    color: black;
-}
 a:hover{
-    color: blue;
-    border-bottom: solid blue 3px;
+    color: rgb(50, 95, 136);
+    border-bottom: solid rgb(50, 95, 136) 3px;
 }
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    overflow: hidden;
     margin: 20px;
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
 }
 ul {
     display: flex;
@@ -44,7 +40,8 @@ ul {
 }
 li {
     height: 50px;
-    width: 100px;
+    width: 60px;
+    text-align: left;
 }
 main {
     margin: 20px;
@@ -55,16 +52,17 @@ main {
     text-align: center;
 }
 .logo {
-    width:  200px;
+    width: 100px;
+    height: 50px;
     align-items: center;
     margin: 10px;
-    text-align: center;
 }
 .logo img {
-    width: 200px;
-    height: 90px;
+    width: 100%;
+    height: 100%;
     border: solid 2px black;
     padding: 10px;
+    overflow: hidden;
 }
 .iconos{
     display: flex;
@@ -76,13 +74,13 @@ main {
     align-items: center;
     text-align: center;
     width: 300px;
-    height: 80px;
-    margin: 10px;
+    height: 30px;
+    margin: 5px;
     padding: 5px;
 }
 .redes img{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin: 5px;
 }
 .redes1{
@@ -178,6 +176,7 @@ h2 {
 .divimagenemprendimiento1 {
     flex-direction: column;
     justify-content: center;
+    margin: 10px;
 }
 .emprendimiento2 {
     display: flex;
@@ -197,6 +196,8 @@ h2 {
 .imagenemprendimiento2 {
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 .menuventa {
     display: flex;
@@ -258,6 +259,28 @@ h2 {
     align-items: baseline;
     margin: 10px;
     padding: 20px;
+}
+.inicio2{
+    width: 500px;
+    height: 500px;
+    margin : 80px;
+    padding: 30px;
+    border: solid 1px;
+    align-items: center;
+    background-color:  rgb(77, 71, 116);
+}
+.inicio1{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: justify;
+    border: solid 1px black;
+    margin: 10px;
+    padding: 15px;
+}
+.inicio1 img{
+    height: 100%;
+    width: 100%;
 }
 .container {
     display: grid;
@@ -328,6 +351,9 @@ footer{
 .pie{
     display: flex;
     flex-direction: row;
+    align-content: end;
+    justify-content: end;
+    margin: 10px;
 }
 @media (max-width: 600px){
     .container{
@@ -373,19 +399,29 @@ footer{
         margin: 10px;
         padding: 50px;
     }
-    .imagenemprendimiento1{
-        justify-content: center;
-    }
     .emprendimiento2{
         flex-direction: column;
-    }
-    .emp{
-        width: 90px;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 50px;
     }
     .pie{
         flex-direction: column;
     }
     .iconos{
         flex-direction: column;
+    }
+    .inicio2{
+        width: 300px;
+        height: 300px;
+        margin : 10px;
+        padding: 30px;
+        border: solid 1px;
+        align-items: center;
+        background-color:  rgb(77, 71, 116);
+    }
+    h3 {
+        font-size: 12px;
     }
 }
