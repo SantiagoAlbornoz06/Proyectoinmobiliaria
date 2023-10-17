@@ -1,427 +1,475 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 html {
-    font-size: 62,5%;
+  font-size: 62, 5%;
 }
+
 header {
-    margin: 20px;
-    padding: 5px;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(77, 71, 116);
+  margin: 20px;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(77, 71, 116);
 }
-body{
-    background-color: rgb(169, 171, 177);
+
+body {
+  background-color: rgb(169, 171, 177);
 }
-a:hover{
-    color: rgb(50, 95, 136);
-    border-bottom: solid rgb(50, 95, 136) 3px;
+
+a:hover {
+  color: rgb(50, 95, 136);
+  border-bottom: solid rgb(50, 95, 136) 3px;
 }
+
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    overflow: hidden;
-    margin: 20px;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  overflow: hidden;
+  margin: 20px;
+  width: 100%;
+  height: 100%;
 }
-ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
 }
-li {
-    height: 50px;
-    width: 60px;
-    text-align: left;
+nav li {
+  height: 50px;
+  width: 60px;
+  text-align: left;
 }
+
 main {
-    margin: 20px;
-    padding: 10px;
+  margin: 20px;
+  padding: 10px;
 }
-.emp {
-    width: 180px;
-    text-align: center;
-}
+
 .logo {
-    width: 100px;
-    height: 50px;
-    align-items: center;
-    margin: 10px;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  margin: 10px;
 }
-.logo img {
-    width: 100%;
-    height: 100%;
-    border: solid 2px black;
-    padding: 10px;
-    overflow: hidden;
+.logo .logo img {
+  width: 100%;
+  height: 100%;
+  border: solid 2px black;
+  padding: 10px;
+  overflow: hidden;
 }
-.iconos{
-    display: flex;
-    flex-direction: row;
+
+.iconos {
+  display: flex;
+  flex-direction: row;
 }
-.redes{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    width: 300px;
-    height: 30px;
-    margin: 5px;
-    padding: 5px;
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+  padding: 5px;
 }
-.redes img{
-    width: 25px;
-    height: 25px;
-    margin: 5px;
+
+.redes img {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
 }
-.redes1{
-font-family: Arial, Helvetica, sans-serif;
-font-size: xx-small;
-color: black;
-text-align: left;
-text-size-adjust: 5px;
-margin: 10px;
-padding: 5px;
+
+.redes1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-small;
+  color: black;
+  text-align: left;
+  text-size-adjust: 5px;
+  margin: 10px;
+  padding: 5px;
 }
-.redes1 img{
-    width: 20px;
-    height: 20px;
+
+.redes1 img {
+  width: 20px;
+  height: 20px;
 }
-h3{
-    font-size: 18px;
-    text-align: center;
-    color:rgb(5, 5, 51)
-}
+
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: underline;
-    color: rgb(5, 5, 51);
-    margin: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(5, 5, 51);
+  margin: 40px;
 }
-.principal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color:rgb(201, 211, 243) ; 
-    width: 900px;
-    height: 80px;
-    margin-left: 200px;
-    padding: 10px;
+
+p {
+  font-size: 15px;
 }
+
+h3 {
+  font-size: 17px;
+  text-align: center;
+  color: rgb(5, 5, 51);
+}
+
+h4 {
+  font-size: 15px;
+  color: black;
+}
+
+.emp {
+  width: 180px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(77, 71, 116);
+  margin: 20px;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.datos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  color: black;
+  margin: 20px;
+}
+
+.pie {
+  display: flex;
+  flex-direction: row;
+  align-content: end;
+  justify-content: end;
+  margin: 10px 80px 10px 10px;
+}
+
+.iniciouno {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.inicio2 {
+  width: 500px;
+  height: 500px;
+  margin: 80px;
+  padding: 30px;
+  border: solid 1px;
+  align-items: center;
+  background-color: rgb(201, 211, 243);
+}
+
+.inicio1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px rgb(201, 211, 243);
+  margin: 10px;
+  padding: 15px;
+}
+
+.inicio1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.menuventa {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 500;
+  font-style: normal;
+  margin: 50px;
+  padding: 10px;
+}
+
+.menuuno {
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+.casasenventa {
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  margin: 20px;
+}
+
+.casas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  text-align: justify;
+  border: solid 1px black;
+  margin: 10px;
+  padding: 5px;
+}
+
+.alquileres {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(201, 211, 243);
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  gap: 20px;
+  grid-template-areas: "uno dos tres" "cuatro cinco seis" ". siete .";
+}
+
+.container img {
+  width: 100%;
+  border: solid 2px black;
+  margin: 30px;
+}
+
+.uno {
+  grid-area: uno;
+  width: 300px;
+  height: 300px;
+}
+
+.dos {
+  grid-area: dos;
+  width: 300px;
+  height: 300px;
+}
+
+.tres {
+  grid-area: tres;
+  width: 300px;
+  height: 300px;
+}
+
+.cuatro {
+  grid-area: cuatro;
+  width: 300px;
+  height: 300px;
+}
+
+.cinco {
+  grid-area: cinco;
+  width: 300px;
+  height: 300px;
+}
+
+.seis {
+  grid-area: seis;
+  width: 300px;
+  height: 300px;
+}
+
+.siete {
+  grid-area: siete;
+  width: 300px;
+  height: 300px;
+}
+
+.emprendimiento {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(201, 211, 243);
+  align-items: center;
+  margin: 20px;
+  border: solid 2px black;
+  padding: 20px;
+}
+
+.divtextoemprendimiento {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.divimagenemprendimiento {
+  justify-content: center;
+  margin: 10px;
+}
+
+.emprendimiento1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(201, 211, 243);
+  margin: 20px;
+  border: solid 2px black;
+  padding: 20px;
+}
+
+.divtextoemprendimiento1 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.divimagenemprendimiento1 {
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+
+.emprendimiento2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(201, 211, 243);
+  align-items: center;
+  margin: 20px;
+  border: solid 2px black;
+  padding: 20px;
+}
+
+.divtextoemprendimiento2 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagenemprendimiento2 {
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.msj {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .mensaje {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 200;
+  color: black;
+  font-style: normal;
+  text-align: center;
+  background-color: rgb(201, 211, 243);
+  width: 400px;
+  height: 400Px;
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px black;
+}
+
+@media (max-width: 768px) {
+  .casas {
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    font-weight: 200; color: black;
-    font-style: normal;
-    text-align: center;
-    background-color: rgb(201, 211, 243);
-    width: 400px;
-    height: 400Px;
+  }
+  .alquileres {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis" "siete";
+  }
+  .menuuno {
+    flex-direction: column;
+  }
+  .menuventa {
+    flex-direction: column;
+  }
+  .iniciouno {
+    flex-direction: column;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  ul {
+    flex-direction: column;
+  }
+  li {
+    flex-direction: column;
+    width: 50px;
+    height: 20px;
+  }
+  .emprendimiento {
+    flex-direction: column;
+  }
+  .emprendimiento1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
-    padding: 10px;
-    border: solid 1px black 
-}
-.emprendimiento {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: aliceblue;
-    align-items: center;
-    margin: 20px;
-    border: solid 2px black;
-    padding: 20px
-}
-.divtextoemprendimiento {
+    padding: 50px;
+  }
+  .emprendimiento2 {
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
-}
-.divimagenemprendimiento {
-    justify-content: center;
     margin: 10px;
-}
-.emprendimiento1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: aliceblue;
-    margin: 20px;
-    border: solid 2px black;
-    padding: 20px
-}
-.divtextoemprendimiento1 {
+    padding: 50px;
+  }
+  .pie {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.divimagenemprendimiento1 {
+  }
+  .iconos {
     flex-direction: column;
-    justify-content: center;
+  }
+  .inicio2 {
+    width: 300px;
+    height: 300px;
     margin: 10px;
-}
-.emprendimiento2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: aliceblue;
-    align-items: center;
-    margin: 20px;
-    border: solid 2px black;
-    padding: 20px
-}
-.divtextoemprendimiento2 {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.imagenemprendimiento2 {
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-.menuventa {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    font-weight: 500;
-    font-style: normal;
-    margin: 50px;
-    padding: 10px;
-    }
-.menuuno {
-        text-align: center;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 20px;
-}   
-.casasenventa {
-    display: flex;
-    flex-direction: row;
-    background-color: aliceblue;
-    margin: 20px;    
-}
-.casas{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    text-align: justify;
-    border: solid 1px black;
-    margin: 10px;
-    padding: 15px;
-}
-@media (max-width: 768px){
-    .casas{
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .alquileres {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-}
-.alquileres {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: aliceblue;
-    height: 100%;
-    margin: 20px;    
-}
-.iniciouno{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin: 10px;
-    padding: 20px;
-}
-.inicio2{
-    width: 500px;
-    height: 500px;
-    margin : 80px;
     padding: 30px;
     border: solid 1px;
     align-items: center;
-    background-color:  rgb(77, 71, 116);
+    background-color: rgb(77, 71, 116);
+  }
+  h3 {
+    font-size: 13px;
+  }
+  h4 {
+    font-size: 12px;
+  }
 }
-.inicio1{
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    text-align: justify;
-    border: solid 1px black;
-    margin: 10px;
-    padding: 15px;
-}
-.inicio1 img{
-    height: 100%;
-    width: 100%;
-}
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    justify-items: center;
-    gap: 20px;
-    grid-template-areas: 
-    "uno dos tres"
-    "cuatro cinco seis" 
-    ". siete ."
-    ;
-}
-.container img{
-    width: 100%;
-    border: solid 2px black;
-    margin: 30px;
-}
-.uno{
-    grid-area:uno;
-    width: 300px;
-    height: 300px;
-}
-.dos{
-    grid-area:dos;
-    width: 300px;
-    height: 300px;
-}
-.tres {
-    grid-area:tres;
-    width: 300px;
-    height: 300px;
-}
-.cuatro{
-    grid-area:cuatro;
-    width: 300px;
-    height: 300px;
-}
-.cinco{
-    grid-area:cinco;
-    width: 300px;
-    height: 300px;
-}
-.seis{
-    grid-area:seis;
-    width: 300px;
-    height: 300px;
-}
-.siete{
-    grid-area:siete;
-    width: 300px;
-    height: 300px;
-}
-footer{
-    background-color:rgb(77, 71, 116);
-    margin: 20px;
-    padding: 5px;
-    width: 100%;
-    height: 100%;
-}
-.datos{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    text-align: left;
-    color: black;
-    margin: 20px;
-}
-.pie{
-    display: flex;
-    flex-direction: row;
-    align-content: end;
-    justify-content: end;
-    margin: 10px;
-}
-@media (max-width: 600px){
-    .container{
-    grid-template-columns: 1fr;
-    gap: 20px;
-    grid-template-areas: 
-    "uno"
-    "dos"
-    "tres"
-    "cuatro"
-    "cinco"
-    "seis" 
-    "siete";
-    }
-    .menuuno{
-        flex-direction: column;   
-    }
-    .menuventa{
-        flex-direction: column;
-    }
-    .iniciouno{
-        flex-direction: column;
-    }
-    nav{
-        flex-direction: column;
-        justify-content: center;
-        }
-    ul{
-        flex-direction: column;
-    }
-    li{
-        flex-direction: column;
-        width: 50px;
-        height: 20px;
-    }
-    .emprendimiento{
-        flex-direction: column;
-    }
-    .emprendimiento1{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 10px;
-        padding: 50px;
-    }
-    .emprendimiento2{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 10px;
-        padding: 50px;
-    }
-    .pie{
-        flex-direction: column;
-    }
-    .iconos{
-        flex-direction: column;
-    }
-    .inicio2{
-        width: 300px;
-        height: 300px;
-        margin : 10px;
-        padding: 30px;
-        border: solid 1px;
-        align-items: center;
-        background-color:  rgb(77, 71, 116);
-    }
-    h3 {
-        font-size: 12px;
-    }
-}
+
+/*# sourceMappingURL=style.css.map */

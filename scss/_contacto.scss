@@ -1,0 +1,26 @@
+.msj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mensaje {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 200; color: black;
+    font-style: normal;
+    text-align: center;
+    background-color: $recuadros;
+    width: 400px;
+    height: 400Px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px black 
+}
+
+

@@ -1,0 +1,164 @@
+header {
+    margin: 20px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: $fondosecundario;
+}
+body{
+    background-color: $fondoprimario;
+}
+a:hover{
+    color: $textoremarcado;
+    border-bottom: solid ($textoremarcado) 3px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    overflow: hidden;
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+            }
+                li {
+                    height: 50px;
+                    width: 60px;
+                    text-align: left;
+                    } 
+}
+main {
+    margin: 20px;
+    padding: 10px;
+}
+.logo {
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    margin: 10px;
+        .logo img {
+            width: 100%;
+            height: 100%;
+            border: solid 2px black;
+            padding: 10px;
+            overflow: hidden;
+        }
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+.redes img{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+.redes1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: xx-small;
+color: $colortextos;
+text-align: left;
+text-size-adjust: 5px;
+margin: 10px;
+padding: 5px;
+}
+.redes1 img{
+    width: 20px;
+    height: 20px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color: $subtitulos;
+    margin: 40px;
+}
+p {
+    font-size: 15px;
+}
+h3{
+    font-size: 17px;
+    text-align: center;
+    color: $subtitulos;
+}
+h4{
+    font-size: 15px;
+    color:$colortextos
+}
+.emp {
+    width: 180px;
+    text-align: center;
+}
+footer{
+    background-color:$fondosecundario;
+    margin: 20px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+.datos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: $colortextos;
+    margin: 20px;
+}
+.pie{
+    display: flex;
+    flex-direction: row;
+    align-content: end;
+    justify-content: end;
+    margin:10px 80px 10px 10px;
+}
+.iniciouno{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+}
+.inicio2{
+    width: 500px;
+    height: 500px;
+    margin : 80px;
+    padding: 30px;
+    border: solid 1px;
+    align-items: center;
+    background-color: $recuadros;
+}
+.inicio1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px $recuadros;
+    margin: 10px;
+    padding: 15px;
+}
+.inicio1 img { 
+    height: 100%;
+    width: 100%;
+}
+
