@@ -12,3 +12,14 @@ $fondosecundario: rgb(77, 71, 116);
 $recuadros: rgb(201, 211, 243);
 $textoremarcado:rgb(50, 95, 136) ;
 $subtitulos: rgb(5, 5, 51);
+%flexrowcenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+%columnacenter{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

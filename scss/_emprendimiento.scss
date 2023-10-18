@@ -1,0 +1,65 @@
+.emprendimiento {
+    @extend %flexrowcenter;
+    background-color: $recuadros;
+    margin: 20px;
+    border: solid 2px $colortextos;
+    padding: 20px
+}
+        .divtextoemprendimiento {
+           @extend %columnacenter !optional;
+        }    
+            .divimagenemprendimiento {
+                @extend %columnacenter !optional;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                margin: 10px;
+            }
+                .divimagenemprendimiento img {
+                    width: 100%;
+                    height: 100%;
+                    margin: 10px;
+                }
+.emprendimiento1 {
+    @extend %flexrowcenter;
+    background-color: $recuadros;
+    margin: 20px;
+    border: solid 2px $colortextos;
+    padding: 20px
+}
+.divtextoemprendimiento1 {
+    @extend %columnacenter !optional;
+}
+        .divimagenemprendimiento1 {
+            @extend %columnacenter !optional;
+            width: 100%;
+            height: 100%;
+            margin: 10px;
+        }
+        .imagenemprendimiento1 img {
+            width: 100%;
+            height: 100%;
+            margin: 10px;
+        }
+.emprendimiento2 {
+    @extend %flexrowcenter;
+    background-color: $recuadros;
+    align-items: center;
+    margin: 20px;
+    border: solid 2px $colortextos;
+    padding: 20px
+}
+        .divtextoemprendimiento2 {
+            @extend %columnacenter !optional;
+        }
+            .imagenemprendimiento2 {
+                @extend %columnacenter !optional;
+                width: 100%;
+                height: 100%;
+                margin: 10px;
+            }
+            .imagenemprendimiento2 img {
+                width: 100%;
+                height: 100%;
+                margin: 10px;
+            }

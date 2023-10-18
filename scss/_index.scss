@@ -131,10 +131,7 @@ footer{
     margin:10px 80px 10px 10px;
 }
 .iniciouno{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    @extend %flexrowcenter;
     margin: 10px;
     padding: 20px;
 }
@@ -150,10 +147,8 @@ footer{
 .inicio1{
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 1px $recuadros;
+    @extend %flexrowcenter;
+    border: solid 1px $colortextos;
     margin: 10px;
     padding: 15px;
 }
