@@ -1,26 +1,36 @@
 .msj {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    align-content: center;
+    margin: 10px;
+    padding: 30px;
 }
 .mensaje {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
     align-content: center;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    font-weight: 200; color: black;
+    font-weight: 2px; color: $colortextos;
     font-style: normal;
     text-align: center;
     background-color: $recuadros;
-    width: 400px;
-    height: 400Px;
+    width: 450px;
+    height: 450Px;
     margin: 10px;
-    padding: 10px;
-    border: solid 1px black 
+    padding: 30px;
+    border: solid 1px $colortextos
+}
+.botones {
+    background-color: $fondosecundario;
+    font-size: bold 20px;    
+}
+.botones1{
+    display: flex;
+    flex-direction: row;
 }
 
 

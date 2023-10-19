@@ -1,16 +1,17 @@
 header {
     margin: 20px;
-    padding: 5px;
+    padding: 30px;
     width: 100%;
     height: 100%;
     background-color: $fondosecundario;
 }
 body{
-    background-color: $fondoprimario;
+    background: radial-gradient(circle, $textoremarcado, $fondoprimario);
 }
 a:hover{
     color: $textoremarcado;
     border-bottom: solid ($textoremarcado) 3px;
+    transform: translate(-5px, -6px);
 }
 nav {
     display: flex;
@@ -123,6 +124,13 @@ footer{
     color: $colortextos;
     margin: 20px;
 }
+.datos1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: right;
+    color: $colortextos;
+    margin: 20px;
+}
 .pie{
     display: flex;
     flex-direction: row;
@@ -156,4 +164,27 @@ footer{
     height: 100%;
     width: 100%;
 }
-
+.animacion {
+    animation-name: prianimacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+@keyframes prianimacion{
+   0%{
+    width: 300px;
+   } 
+   25% {
+    width: 350px;
+   }
+   50%{
+    width: 400px;
+   }
+   75%{
+    width: 450px;
+   }
+   100% {
+    width : 500px;
+   }
+}

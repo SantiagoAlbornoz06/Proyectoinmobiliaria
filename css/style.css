@@ -15,7 +15,7 @@ html {
   align-items: center;
 }
 
-.imagenemprendimiento2, .divtextoemprendimiento2, .divimagenemprendimiento1, .divtextoemprendimiento1, .divimagenemprendimiento, .divtextoemprendimiento {
+.imagenemprendimiento2, .divtextoemprendimiento2, .imagenemprendimiento1, .textoemprendimiento1, .imagenemprendimiento, .textoemprendimiento {
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -23,19 +23,20 @@ html {
 
 header {
   margin: 20px;
-  padding: 5px;
+  padding: 30px;
   width: 100%;
   height: 100%;
   background-color: rgb(77, 71, 116);
 }
 
 body {
-  background-color: rgb(169, 171, 177);
+  background: radial-gradient(circle, rgb(50, 95, 136), rgb(169, 171, 177));
 }
 
 a:hover {
   color: rgb(50, 95, 136);
   border-bottom: solid rgb(50, 95, 136) 3px;
+  transform: translate(-5px, -6px);
 }
 
 nav {
@@ -164,6 +165,14 @@ footer {
   margin: 20px;
 }
 
+.datos1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: right;
+  color: black;
+  margin: 20px;
+}
+
 .pie {
   display: flex;
   flex-direction: row;
@@ -200,6 +209,31 @@ footer {
   width: 100%;
 }
 
+.animacion {
+  animation-name: prianimacion;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+
+@keyframes prianimacion {
+  0% {
+    width: 300px;
+  }
+  25% {
+    width: 350px;
+  }
+  50% {
+    width: 400px;
+  }
+  75% {
+    width: 450px;
+  }
+  100% {
+    width: 500px;
+  }
+}
 .menuventa {
   display: flex;
   flex-direction: row;
@@ -227,26 +261,33 @@ footer {
   margin: 20px;
 }
 
-.casas {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  text-align: justify;
-  border: solid 1px black;
-  margin: 10px;
-  padding: 5px;
-}
-
 .alquileres {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   background-color: rgb(201, 211, 243);
   height: 100%;
   width: 100%;
+  margin: 20px;
+}
+
+.casas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  border: solid 1px black;
+  margin: 20px;
+  padding: 5px;
+}
+
+.casas img {
+  width: 100%;
+  height: 100%;
   margin: 20px;
 }
 
@@ -255,11 +296,13 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   justify-items: center;
+  align-items: center;
   gap: 20px;
   grid-template-areas: "uno dos tres" "cuatro cinco seis" ". siete .";
 }
 
 .container img {
+  height: 100%;
   width: 100%;
   border: solid 2px black;
   margin: 30px;
@@ -314,14 +357,14 @@ footer {
   padding: 20px;
 }
 
-.divimagenemprendimiento {
+.imagenemprendimiento {
   text-align: center;
   width: 100%;
   height: 100%;
   margin: 10px;
 }
 
-.divimagenemprendimiento img {
+.imagenemprendimiento img {
   width: 100%;
   height: 100%;
   margin: 10px;
@@ -334,7 +377,7 @@ footer {
   padding: 20px;
 }
 
-.divimagenemprendimiento1 {
+.imagenemprendimiento1 {
   width: 100%;
   height: 100%;
   margin: 10px;
@@ -344,6 +387,10 @@ footer {
   width: 100%;
   height: 100%;
   margin: 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .emprendimiento2 {
@@ -369,28 +416,40 @@ footer {
 .msj {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  align-content: center;
+  margin: 10px;
+  padding: 30px;
 }
 
 .mensaje {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap;
   align-content: center;
+  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
-  font-weight: 200;
+  font-weight: 2px;
   color: black;
   font-style: normal;
   text-align: center;
   background-color: rgb(201, 211, 243);
-  width: 400px;
-  height: 400Px;
+  width: 450px;
+  height: 450Px;
   margin: 10px;
-  padding: 10px;
+  padding: 30px;
   border: solid 1px black;
+}
+
+.botones {
+  background-color: rgb(77, 71, 116);
+  font-size: bold 20px;
+}
+
+.botones1 {
+  display: flex;
+  flex-direction: row;
 }
 
 @media (max-width: 768px) {
