@@ -1,16 +1,19 @@
 header {
-    margin: 20px;
-    padding: 30px;
+    margin: 10px;
+    padding: 10px;
     width: 100%;
     height: 100%;
-    background-color: $fondosecundario;
+    background: radial-gradient(circle,$textoremarcado, $fondosecundario);
 }
 body{
     background: radial-gradient(circle, $textoremarcado, $fondoprimario);
+    margin: 20px;
+}
+main{
+    margin: 20px, 20px;
 }
 a:hover{
     color: $textoremarcado;
-    border-bottom: solid ($textoremarcado) 3px;
     transform: translate(-5px, -6px);
 }
 nav {
@@ -19,7 +22,7 @@ nav {
     justify-content: space-between;
     position: fixed;
     overflow: hidden;
-    margin: 20px;
+    margin: 10px;
     width: 100%;
     height: 100%;
         ul {
@@ -28,7 +31,7 @@ nav {
             list-style-type: none;
             justify-content: space-between;
             align-items: center;
-            margin: 20px;
+            margin: 30px;
             }
                 li {
                     height: 50px;
@@ -36,19 +39,18 @@ nav {
                     text-align: left;
                     } 
 }
-main {
-    margin: 20px;
-    padding: 10px;
-}
 .logo {
+    display: flex;
+    text-align: right;
     width: 100px;
     height: 50px;
-    align-items: center;
-    margin: 10px;
+    align-items: start ;
+    margin: 40px ;
         .logo img {
             width: 100%;
             height: 100%;
-            border: solid 2px black;
+            border: solid 2px $colortextos;
+            margin-bottom: 20px;
             padding: 10px;
             overflow: hidden;
         }
@@ -64,8 +66,8 @@ main {
     text-align: center;
     width: 300px;
     height: 30px;
-    margin: 5px;
-    padding: 5px;
+    margin: 20px;
+    padding: 10px;
 }
 .redes img{
     width: 25px;
@@ -78,8 +80,8 @@ font-size: xx-small;
 color: $colortextos;
 text-align: left;
 text-size-adjust: 5px;
-margin: 10px;
-padding: 5px;
+margin: 20px;
+padding: 10px;
 }
 .redes1 img{
     width: 20px;
@@ -111,9 +113,9 @@ h4{
     text-align: center;
 }
 footer{
-    background-color:$fondosecundario;
-    margin: 20px;
-    padding: 5px;
+    background: radial-gradient(circle,$textoremarcado, $fondosecundario);
+    margin: 10px;
+    padding: 10px;
     width: 100%;
     height: 100%;
 }
@@ -137,6 +139,7 @@ footer{
     align-content: end;
     justify-content: end;
     margin:10px 80px 10px 10px;
+    padding: 10px
 }
 .iniciouno{
     @extend %flexrowcenter;
@@ -144,47 +147,78 @@ footer{
     padding: 20px;
 }
 .inicio2{
-    width: 500px;
-    height: 500px;
-    margin : 80px;
+    width: 50%;
+    height: 50%;
+    margin : 20px;
     padding: 30px;
     border: solid 1px;
     align-items: center;
+    align-content: center;
+    justify-content: center;
     background-color: $recuadros;
 }
 .inicio1{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     @extend %flexrowcenter;
+    align-content: center;
+    justify-content: center;
     border: solid 1px $colortextos;
     margin: 10px;
-    padding: 15px;
+    padding: 20px;
 }
 .inicio1 img { 
-    height: 100%;
-    width: 100%;
+    height: 40%;
+    width: 40%;
+}
+.inicio3{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 .animacion {
+    position: relative;
     animation-name: prianimacion;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
-    animation-duration: 5s;
-    animation-delay: 2s;
+    animation-duration: 10s;
+    animation-delay: 3s;
 }
 @keyframes prianimacion{
    0%{
-    width: 300px;
+    width: 150px;
    } 
    25% {
-    width: 350px;
+    width: 200px;
    }
    50%{
-    width: 400px;
+    width: 250px;
    }
    75%{
-    width: 450px;
+    width: 300px;
    }
    100% {
-    width : 500px;
+    width : 350px;
    }
+}
+.botonesinicio {
+    position: relative;
+    font-size: bold 12px;  
+    padding: 10px 20px;
+    background: none;
+    border-style: none;
+    border: 1px solid $colortextos;
+    color: $colortextos;
+    margin-bottom: 20px; 
+}
+.botonesinicio:hover{
+    text-decoration: none;
+    border-style: none;
+    color: $textoremarcado;
+}
+abotonesinicio:hover{
+    text-decoration: none;
+    border-bottom: none;
+    color: none;
 }

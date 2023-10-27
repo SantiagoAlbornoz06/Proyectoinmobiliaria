@@ -1,6 +1,6 @@
 .emprendimiento {
     @extend %flexrowcenter;
-    background-color: $recuadros;
+    background: radial-gradient(circle,$recuadros, $recuadros2);   
     margin: 20px;
     border: solid 2px $colortextos;
     padding: 20px
@@ -22,7 +22,7 @@
                 }
 .emprendimiento1 {
     @extend %flexrowcenter;
-    background-color: $recuadros;
+    background: radial-gradient(circle,$recuadros, $recuadros2);
     margin: 20px;
     border: solid 2px $colortextos;
     padding: 20px
@@ -46,7 +46,7 @@ a {
 }
 .emprendimiento2 {
     @extend %flexrowcenter;
-    background-color: $recuadros;
+    background: radial-gradient(circle,$recuadros, $recuadros2);
     align-items: center;
     margin: 20px;
     border: solid 2px $colortextos;

@@ -22,20 +22,24 @@ html {
 }
 
 header {
-  margin: 20px;
-  padding: 30px;
+  margin: 10px;
+  padding: 10px;
   width: 100%;
   height: 100%;
-  background-color: rgb(77, 71, 116);
+  background: radial-gradient(circle, rgb(50, 95, 136), rgb(77, 71, 116));
 }
 
 body {
   background: radial-gradient(circle, rgb(50, 95, 136), rgb(169, 171, 177));
+  margin: 20px;
+}
+
+main {
+  margin: 20px, 20px;
 }
 
 a:hover {
   color: rgb(50, 95, 136);
-  border-bottom: solid rgb(50, 95, 136) 3px;
   transform: translate(-5px, -6px);
 }
 
@@ -45,7 +49,7 @@ nav {
   justify-content: space-between;
   position: fixed;
   overflow: hidden;
-  margin: 20px;
+  margin: 10px;
   width: 100%;
   height: 100%;
 }
@@ -55,7 +59,7 @@ nav ul {
   list-style-type: none;
   justify-content: space-between;
   align-items: center;
-  margin: 20px;
+  margin: 30px;
 }
 nav li {
   height: 50px;
@@ -63,21 +67,19 @@ nav li {
   text-align: left;
 }
 
-main {
-  margin: 20px;
-  padding: 10px;
-}
-
 .logo {
+  display: flex;
+  text-align: right;
   width: 100px;
   height: 50px;
-  align-items: center;
-  margin: 10px;
+  align-items: start;
+  margin: 40px;
 }
 .logo .logo img {
   width: 100%;
   height: 100%;
   border: solid 2px black;
+  margin-bottom: 20px;
   padding: 10px;
   overflow: hidden;
 }
@@ -94,8 +96,8 @@ main {
   text-align: center;
   width: 300px;
   height: 30px;
-  margin: 5px;
-  padding: 5px;
+  margin: 20px;
+  padding: 10px;
 }
 
 .redes img {
@@ -110,8 +112,8 @@ main {
   color: black;
   text-align: left;
   text-size-adjust: 5px;
-  margin: 10px;
-  padding: 5px;
+  margin: 20px;
+  padding: 10px;
 }
 
 .redes1 img {
@@ -150,9 +152,9 @@ h4 {
 }
 
 footer {
-  background-color: rgb(77, 71, 116);
-  margin: 20px;
-  padding: 5px;
+  background: radial-gradient(circle, rgb(50, 95, 136), rgb(77, 71, 116));
+  margin: 10px;
+  padding: 10px;
   width: 100%;
   height: 100%;
 }
@@ -179,6 +181,7 @@ footer {
   align-content: end;
   justify-content: end;
   margin: 10px 80px 10px 10px;
+  padding: 10px;
 }
 
 .iniciouno {
@@ -187,53 +190,88 @@ footer {
 }
 
 .inicio2 {
-  width: 500px;
-  height: 500px;
-  margin: 80px;
+  width: 50%;
+  height: 50%;
+  margin: 20px;
   padding: 30px;
   border: solid 1px;
   align-items: center;
+  align-content: center;
+  justify-content: center;
   background-color: rgb(201, 211, 243);
 }
 
 .inicio1 {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
+  align-content: center;
+  justify-content: center;
   border: solid 1px black;
   margin: 10px;
-  padding: 15px;
+  padding: 20px;
 }
 
 .inicio1 img {
-  height: 100%;
-  width: 100%;
+  height: 40%;
+  width: 40%;
+}
+
+.inicio3 {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .animacion {
+  position: relative;
   animation-name: prianimacion;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
-  animation-duration: 5s;
-  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-delay: 3s;
 }
 
 @keyframes prianimacion {
   0% {
-    width: 300px;
+    width: 150px;
   }
   25% {
-    width: 350px;
+    width: 200px;
   }
   50% {
-    width: 400px;
+    width: 250px;
   }
   75% {
-    width: 450px;
+    width: 300px;
   }
   100% {
-    width: 500px;
+    width: 350px;
   }
 }
+.botonesinicio {
+  position: relative;
+  font-size: bold 12px;
+  padding: 10px 20px;
+  background: none;
+  border-style: none;
+  border: 1px solid black;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.botonesinicio:hover {
+  text-decoration: none;
+  border-style: none;
+  color: rgb(50, 95, 136);
+}
+
+abotonesinicio:hover {
+  text-decoration: none;
+  border-bottom: none;
+  color: none;
+}
+
 .menuventa {
   display: flex;
   flex-direction: row;
@@ -245,6 +283,7 @@ footer {
   font-style: normal;
   margin: 50px;
   padding: 10px;
+  border: solid 2px rgb(201, 211, 243);
 }
 
 .menuuno {
@@ -252,6 +291,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   padding: 20px;
+  border: solid 2px rgb(201, 211, 243);
 }
 
 .casasenventa {
@@ -266,10 +306,12 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgb(201, 211, 243);
+  align-content: center;
+  background: radial-gradient(circle, rgb(201, 211, 243), white);
   height: 100%;
   width: 100%;
   margin: 20px;
+  padding: 20px;
 }
 
 .casas {
@@ -281,8 +323,8 @@ footer {
   width: 100%;
   height: 100%;
   border: solid 1px black;
-  margin: 20px;
-  padding: 5px;
+  margin: 20px, 20px;
+  padding: 10px;
 }
 
 .casas img {
@@ -351,7 +393,7 @@ footer {
 }
 
 .emprendimiento {
-  background-color: rgb(201, 211, 243);
+  background: radial-gradient(circle, rgb(201, 211, 243), white);
   margin: 20px;
   border: solid 2px black;
   padding: 20px;
@@ -371,7 +413,7 @@ footer {
 }
 
 .emprendimiento1 {
-  background-color: rgb(201, 211, 243);
+  background: radial-gradient(circle, rgb(201, 211, 243), white);
   margin: 20px;
   border: solid 2px black;
   padding: 20px;
@@ -394,7 +436,7 @@ a {
 }
 
 .emprendimiento2 {
-  background-color: rgb(201, 211, 243);
+  background: radial-gradient(circle, rgb(201, 211, 243), white);
   align-items: center;
   margin: 20px;
   border: solid 2px black;
@@ -434,7 +476,7 @@ a {
   color: black;
   font-style: normal;
   text-align: center;
-  background-color: rgb(201, 211, 243);
+  background: radial-gradient(circle, rgb(201, 211, 243), white);
   width: 450px;
   height: 450Px;
   margin: 10px;
@@ -445,6 +487,7 @@ a {
 .botones {
   background-color: rgb(77, 71, 116);
   font-size: bold 20px;
+  padding: 10px 20px;
 }
 
 .botones1 {
@@ -529,6 +572,9 @@ a {
   h4 {
     font-size: 12px;
   }
+}
+.botonesinicio {
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

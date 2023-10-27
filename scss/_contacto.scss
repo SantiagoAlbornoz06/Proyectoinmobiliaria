@@ -17,7 +17,7 @@
     font-weight: 2px; color: $colortextos;
     font-style: normal;
     text-align: center;
-    background-color: $recuadros;
+    background: radial-gradient(circle,$recuadros, $recuadros2);
     width: 450px;
     height: 450Px;
     margin: 10px;
@@ -26,7 +26,8 @@
 }
 .botones {
     background-color: $fondosecundario;
-    font-size: bold 20px;    
+    font-size: bold 20px;  
+    padding: 10px 20px;  
 }
 .botones1{
     display: flex;

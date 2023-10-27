@@ -9,12 +9,14 @@
     font-style: normal;
     margin: 50px;
     padding: 10px;
+    border: solid 2px $recuadros;
     }
 .menuuno {
         text-align: center;
         justify-content: flex-end;
         align-items: center;
         padding: 20px;
+        border: solid 2px $recuadros;
 }   
 .casasenventa {
     display: flex;
@@ -27,10 +29,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: $recuadros;
+    align-content: center;
+    background: radial-gradient(circle,$recuadros, $recuadros2);
     height: 100%;
     width: 100%;
-    margin: 20px;    
+    margin: 20px;
+    padding: 20px;    
 }
 .casas{
     display: flex;
@@ -41,8 +45,8 @@
     width: 100%;
     height: 100%;
     border: solid 1px $colortextos;
-    margin: 20px;
-    padding: 5px;
+    margin: 20px, 20px;
+    padding: 10px;
 }
     .casas img {
         width: 100%;
