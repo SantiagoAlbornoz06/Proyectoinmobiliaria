@@ -272,6 +272,14 @@ abotonesinicio:hover {
   color: none;
 }
 
+.h1noencotrada {
+  font-size: bold 30px;
+}
+
+.h3noencontrada {
+  font-size: bold 18px;
+}
+
 .menuventa {
   display: flex;
   flex-direction: row;
